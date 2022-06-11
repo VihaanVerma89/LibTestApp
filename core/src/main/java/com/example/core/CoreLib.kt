@@ -2,7 +2,11 @@ package com.example.core
 
 class CoreLib {
 
-    private fun testFun1(){
+    fun testFun1(){
        println("test fun 1")
+    }
+
+    fun getDummyText(): String {
+       return "Vihaan Verma"
     }
 }
